@@ -1,0 +1,10 @@
+{
+  "network": "testnet",
+  "contractAccount": "htlc-nearswap.testnet",
+  "deployerAccount": "javweb3.testnet",
+  "deployedAt": "2025-07-29T23:56:00.000Z",
+  "explorerUrl": "https://explorer.testnet.near.org/accounts/htlc-nearswap.testnet",
+  "rpcUrl": "https://rpc.testnet.near.org",
+  "codeHash": "BdXeeyHXHsQHP4hMM9B4fsKHmTXniZfowtTZy2GMj65S",
+  "notes": "Contract deployed but initialization calls fail with deserialization error. May need NEAR SDK version adjustment."
+}

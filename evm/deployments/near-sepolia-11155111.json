@@ -1,0 +1,26 @@
+{
+  "network": "sepolia",
+  "chainId": 11155111,
+  "contracts": {
+    "accessToken": "0x7B8BFc656Da1690536D094b64631773F806560cD",
+    "nearEscrowFactory": "0xCE8D78684a4bbfdAB257168536933a6C359EaBC5",
+    "nearEscrowSrcImplementation": "0xbD403eBDdF43748873dc14Cb54aD35cFEF118a38",
+    "nearEscrowDstImplementation": "0xfBffF85459B4bC40d87616b656A1183A73cD2e95"
+  },
+  "config": {
+    "rescueDelaySrc": 604800,
+    "rescueDelayDst": 604800,
+    "creationFee": "0.001",
+    "nearConfig": {
+      "minAmount": "1000000000000000000000000",
+      "maxAmount": "1000000000000000000000000000",
+      "confirmationTime": 120
+    }
+  },
+  "deployedAt": "2025-07-28T20:35:06.740Z",
+  "gasUsed": {
+    "accessToken": "705086",
+    "nearEscrowFactory": "3451542",
+    "total": "4156628"
+  }
+}

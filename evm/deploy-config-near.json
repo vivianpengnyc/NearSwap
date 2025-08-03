@@ -1,0 +1,10 @@
+{
+  "rescueDelaySrc": 604800,
+  "rescueDelayDst": 604800,
+  "creationFee": "0.001",
+  "nearConfig": {
+    "minAmount": "1000000000000000000000000",
+    "maxAmount": "1000000000000000000000000000",
+    "confirmationTime": 120
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "nearswap-near",
+  "version": "1.0.0",
+  "description": "NEAR side implementation for NEAR-EVM atomic swaps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create-htlc": "ts-node scripts/create-htlc.ts",
+    "fund-htlc": "ts-node scripts/fund-htlc.ts",
+    "claim-htlc": "ts-node scripts/claim-htlc.ts",
+    "refund-htlc": "ts-node scripts/refund-htlc.ts",
+    "deploy-contract": "ts-node scripts/deploy-contract.ts"
+  },
+  "keywords": ["near", "atomic-swap", "cross-chain"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "near-api-js": "^3.0.0",
+    "bn.js": "^5.2.1",
+    "dotenv": "^16.3.1",
+    "js-sha256": "^0.10.1"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.5",
+    "@types/node": "^20.10.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  }
+}

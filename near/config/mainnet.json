@@ -1,0 +1,10 @@
+{
+  "networkId": "mainnet",
+  "nodeUrl": "https://rpc.mainnet.near.org",
+  "contractId": "htlc.near",
+  "explorerUrl": "https://explorer.mainnet.near.org",
+  "walletUrl": "https://wallet.near.org",
+  "helperUrl": "https://helper.mainnet.near.org",
+  "keyPath": "~/.near-credentials/mainnet",
+  "masterAccount": "near"
+}
