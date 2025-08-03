@@ -51,8 +51,10 @@ This creates a WebAssembly file at:
 near login
 
 # Deploy the contract
-near deploy --accountId your-contract.testnet --wasmFile target/wasm32-unknown-unknown/release/htlc.wasm
-near deploy javweb3.testnet /Users/vivianpeng/NearSwap/near/contracts/target/wasm32-unknown-unknown/release/htlc.wasm
+near deploy --accountId javweb3.testnet --wasmFile target/wasm32-unknown-unknown/release/htlc.wasm
+
+near deploy htlc-swap.testnet /Users/vivianpeng/NearSwap/near/contracts/target/wasm32-unknown-unknown/release/htlc.wasm
+
 # Initialize the contract
 near call your-contract.testnet new --accountId your-contract.testnet
 ```
